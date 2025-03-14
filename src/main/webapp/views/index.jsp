@@ -36,7 +36,12 @@
           <td class="form-lable">Course</td>
           <td>
           <form:select path="course" >
-           <form:options items="${courses }"/>
+             <form:select path="course" class="form-input">
+                        <form:option value="Java">Java</form:option>
+                        <form:option value="Mern">Mern</form:option>
+                        <form:option value="Python">Python</form:option>
+                        
+                     <!--    <form:options items="${courses }"/> -->
           </form:select>
           </td>
        </tr>
